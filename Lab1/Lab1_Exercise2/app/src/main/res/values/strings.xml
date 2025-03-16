@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab 1 Exercise 2</string>
+    <string name="sentiment_result">Sentiment: %1$s</string>
+    <string name="error_empty_text">Please enter text!</string>
+</resources>

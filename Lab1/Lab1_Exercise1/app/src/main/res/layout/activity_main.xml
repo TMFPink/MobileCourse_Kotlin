@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EAEDED">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            app:cardCornerRadius="50dp"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/avt"
+                android:scaleType="centerCrop"
+
+                android:padding="3dp"
+                android:contentDescription="Profile Picture" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tran Minh Nguyen Hong"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Software Engineer"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_horizontal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Education Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:background="@drawable/layout_border"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/tvEducationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Advance Program major Information System, University of Information Technology (2021 - 2025)"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Contact Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/layout_border"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/tvContactLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact information"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: nguyenhongtranminh@gmail.com\nPhone: +84 778231827"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Technical Knowledge Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/layout_border"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/tvTechnicalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technical Knowledge"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvTechnical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Angular\n- Python Django\n- React\n- NodeJs"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Experience Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@drawable/layout_border"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/tvExperienceLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frontend Engineer at NNG Company limited (2024 - Present)\n- Design prototype for IoT platform using AdobeXD.\n- Developing trending chart feature with stack Angular.\n- Communicate with customer to discuss about project requirements."
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
