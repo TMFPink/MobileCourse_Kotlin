@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="NoButtonTint" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="materialButtonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@null</item>
+    </style>
+</resources>
