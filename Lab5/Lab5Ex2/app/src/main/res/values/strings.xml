@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab5Ex2 Alarm</string>
+    <string name="add_alarm">Setting Alarm</string>
+    <string name="alarm_set">Alarm set at %s</string>
+    <string name="alarm_ringing">ALARM!!!!</string>
+     <string name="default_alarm_label">Alarm guys!</string>
+    <string name="snooze">10 more minutes....</string>
+    <string name="dismiss">Turn Off. (As you should be)</string>
+</resources>

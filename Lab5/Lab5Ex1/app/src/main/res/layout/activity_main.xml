@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- App Header -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recap Exercise"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Status Section -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Ready"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Bound Service Count -->
+    <TextView
+        android:id="@+id/tvBoundServiceCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bound Service Count: 0"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Status Indicator -->
+    <TextView
+        android:id="@+id/statusIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicator: None"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <!-- Background Task Button -->
+        <Button
+            android:id="@+id/btnBackground"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Background" />
+
+        <!-- Foreground Service Button -->
+        <Button
+            android:id="@+id/btnForeground"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Foreground" />
+
+        <!-- Bound Service Button -->
+        <Button
+            android:id="@+id/btnBound"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bind" />
+    </LinearLayout>
+
+</LinearLayout>
